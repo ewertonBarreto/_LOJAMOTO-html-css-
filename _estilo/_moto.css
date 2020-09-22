@@ -1,0 +1,200 @@
+body {
+    background: url('../_imagens/fundo.png');
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: 2%;
+    font-family: Arial;
+}
+
+section#interface {
+    position: relative;
+    display: block;
+    width: 950px;
+    margin: 0px auto 0px auto;
+}
+
+h3 {
+    color: black;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);    
+}
+
+h2 {
+    color:rgb(65, 64, 64);
+    margin-left: 35px;
+    margin-top: 30px;    
+    font-weight: normal;
+    text-shadow: 2px black;    
+}
+
+p {
+    text-align: justify;
+}
+
+/* FORMATAÇÃO IMG LOGO*/
+
+img#logo {
+    position: relative;
+    margin: auto;
+    left: 40px;
+    bottom: -60px;
+}
+
+/*FORMATAÇÃO MENU*/
+
+div#menu {
+    width: 930px;
+    height: 419px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background-image: url("../_imagens/banner.png"); 
+    background-repeat: no-repeat;
+    background-position: -1px 47px;    
+}
+
+nav#menu {
+    margin: 0px auto 0px -10px;
+    height: 30px;
+    width: 935px;
+    background-color: rgb(65, 64, 64);
+    padding: 8px;
+    }
+
+ul#menu {
+    margin-left: 320px;
+    margin-top: -5px;
+    list-style: none;    
+}
+
+li {
+    margin: 10px;
+    font-size: 14pt;
+    display: inline-block;
+    background-color: rgb(65, 64, 64);     
+}
+
+ul#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/*FORMATAÇÃO PRODUTOS PRINCIPAIS*/
+
+.principaisprod {
+    position: relative;
+    width: 940px;    
+}
+
+.produtos {
+    display: inline-flex; 
+    margin-top: 20px;   
+}
+
+.produtos :hover {
+    -webkit-transform: scale(1.1);    
+}
+
+.prod1 {
+    background-image: url("../_imagens/prod1.png");
+    background-repeat: no-repeat;
+    background-position: 60px 25px;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .4); 
+    border: 1px solid black;   
+    margin-right: 20px;
+    width: 220px;
+    height: 260px;
+}
+
+.prod2 {
+    background-image: url("../_imagens/prod2.png");
+    background-repeat: no-repeat;
+    background-position: 60px 10px;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+    border: 1px solid black; 
+    margin-right: 20px; 
+    width: 220px;
+    height: 260px;
+}
+
+.prod3 {
+    background-image: url("../_imagens/prod3.png");
+    background-repeat: no-repeat;
+    background-position: 60px 10px;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);  
+    border: 1px solid black; 
+    width: 220px;
+    height: 260px;
+}
+
+.prod4 {
+    background-image: url("../_imagens/prod4.png");
+    background-repeat: no-repeat;
+    background-position: 60px 10px;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .4); 
+    border: 1px solid black; 
+    margin-left: 20px;  
+    width: 222px;
+    height: 260px;    
+}
+
+.produtos span {
+    color: gray;
+    line-height: 370px;
+    padding: 10px;
+}
+
+/*VALOR DOS PRODUTOS*/
+
+.produtos span.vlrprod {
+    float: right;
+    margin-top: 40px;
+    color: red;    
+}
+
+/*FORMATAÇÃO AREA SERVIÇOS*/
+
+div.servicos {
+    width: 950px;
+    margin-top: 40px;    
+}
+
+div.linha {
+    display: inline-flex;      
+}
+
+div.col1 {
+    margin-right: 10px;
+}
+
+
+/*FORMATAÇÃO FOOTER*/
+
+footer {
+    position: relative;
+    width: 930px;
+    height: 20px; 
+    padding: 10px;
+    margin-top: 50px;   
+    color: white;
+    background-color:rgb(65, 64, 64);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+}
+
+ul#logosfooter {
+    position: absolute;
+    display: inline-block;
+    left: 740px;
+    bottom: -26px;
+}
+
+p.footer {
+    position: absolute;
+    margin: auto;
+}

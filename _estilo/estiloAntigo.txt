@@ -1,0 +1,184 @@
+/*FORMATAÇÃO AREA SERVIÇOS*/
+
+div#serv1 {
+    position: absolute;
+    width: 465px;
+    height: 400px;
+    margin-top: -30px;
+    margin-left: 45px;
+}
+
+h3.serv {
+    margin-left: 0px;
+}
+
+div#serv2 {
+    position: absolute;
+    display: block;
+    width: 455px;
+    height: 400px;
+    margin-top: -30px;
+    margin-left: 535px;
+}
+
+img#serv1 {
+    width: 465px;
+}
+
+img#serv2 {
+    width: 455px;
+}
+
+
+
+
+
+
+
+
+iv#principaisprod {
+    position: relative;
+    width: 940px;
+}
+
+ul#produtos li {
+    margin: 0px auto;
+    margin-top: -15px;
+    height: 240px;
+    border: 1px solid black;
+    background: no-repeat;
+    background-color:white;
+    
+}
+
+ul#produtos li:hover {
+    -webkit-transform: scale(1.1);
+}
+
+ul#produtos {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+ul#produtos li#prod1 {
+    background: url('../_imagens/prod1.png') no-repeat;
+    width: 0px auto;
+    background-position: 70px 30px;
+    background-color: white;
+}
+
+ul#produtos li#prod2 {
+    background: url('../_imagens/prod2.png') no-repeat;
+    width: 0px auto;
+    background-position: 70px 30px;
+    background-color: white;    
+}
+
+ul#produtos li#prod3 {
+    background: url('../_imagens/prod3.png') no-repeat;
+    width: 0px auto;
+    background-position: 70px 30px;
+    background-color: white;   
+}
+
+ul#produtos li#prod4 {
+    background: url('../_imagens/prod4.png') no-repeat;
+    width: 0px auto;
+    background-position: 70px 30px;
+    background-color: white;    
+}
+
+ul#produtos li span {
+    color: gray;
+    line-height: 350px;
+}
+
+
+
+
+
+
+
+/*VALOR DOS PRODUTOS*/
+
+ul#produtos li span.vlrprod1 {
+    float: right;
+    margin-top: 60px;
+    color: red;    
+}
+
+ul#produtos li span.vlrprod2 {
+    float: right;
+    margin-top: 60px;
+    color: red;
+}
+
+ul#produtos li span.vlrprod3{
+    float: right;
+    margin-top: 60px;
+    color: red;
+}
+
+ul#produtos li span.vlrprod4 {
+    float: right;
+    margin-top: 60px;
+    color: red;
+}
+
+
+
+
+
+
+html
+
+
+
+
+ <div id="serv1">
+
+            <h3 class="serv">Concessionárias</h3>
+            <img id="serv1" src="_imagens/banner1B.png" />
+            <p>A Honda fabrica os seus produtos com o mais rigoroso controle de qualidade e faz questão de manter esse
+                padrão através da excelência em serviços de suas concessionárias. A rede Honda é dividida em
+                concessionárias de automóveis e de motocicletas, além de concessionárias/lojas especiais de produtos de
+                força.</p>
+
+
+        </div>
+
+        <div id="serv2">
+
+            <h3 class="serv">Tele Vendas</h3>
+            <img id="serv2" src="_imagens/banne1A.png" />
+            <p>A Honda fabrica os seus produtos com o mais rigoroso controle de qualidade e faz questão de manter esse
+                padrão através da excelência em serviços de suas concessionárias.A re Honda é dividida em
+                concessionárias de automóveis e de motocicletas, além de concessionárias/lojas especiais de produtos de
+                força.</p>
+
+
+        </div>
+
+
+
+
+
+
+
+<div id="principaisprod">
+
+            <h3>PRINCIPAIS PRODUTOS</h3> </br>
+
+            <ul id="produtos">
+                <li id="prod1"><span>Calça</span><span class="vlrprod1">R$1200,00</span></li>
+
+                <li id="prod2"><span>Bota de Couro</span><span class="vlrprod2">R$250</span></li>
+
+                <li id="prod3"><span>Capacete</span><span class="vlrprod3">R$850</span></li>
+                <li id="prod4"><span>Jaqueta</span><span class="vlrprod4">R$2200,00</span></li>
+
+            </ul>
+
+        </div>
+
